@@ -15,9 +15,9 @@ def extract_and_save(DIR_PATH):
     return extracted_data
 
 def map_dataframe_to_counter(df):
-    df = df["docs"].apply(lambda x : tokenize_to_counter(x))
+    df["docs"] = df["docs"].apply(lambda x : tokenize_to_counter(x))
     return df
 
 def solve(DIR_PATH):
     _data = map_dataframe_to_counter(extract_and_save(DIR_PATH))
-    _data.to_csv("test_solve.csv")
+    _data.to_csv("test_counters.csv")
