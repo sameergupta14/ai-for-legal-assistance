@@ -36,7 +36,7 @@ def solve(doc):
     doc = re.sub(r"\ nct\ ", " national capital territory ", doc)
     doc = re.sub(r"\ itr\ ", " income tax return ", doc)
     doc = re.sub(r"\ ito\ ", " income tax officer ", doc)
-    doc = re.sub("r\ aac\ ", " administrative appeals chamber ", doc)
+    doc = re.sub(r"\ aac\ ", " administrative appeals chamber ", doc)
     doc = re.sub(r"\ arc\ ", " administrative reforms commission ", doc)
     doc = re.sub(r"\ dr\ ", " doctor ", doc)
     doc = re.sub(r"\ misc\ ", " miscellaneous ", doc)
