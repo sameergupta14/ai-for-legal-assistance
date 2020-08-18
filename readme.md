@@ -1,7 +1,7 @@
 # AI for Legal Assistance
 ___
 
-In order to test this, keep the directory heirarchy as :-
+In order to test this, keep the directory structure as :-
 * ai-for-legal-assistance
 * data
 	* test
