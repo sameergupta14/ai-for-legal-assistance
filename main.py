@@ -1,10 +1,11 @@
 import re
 import os
-import tokenize_to_counter
+import save_tokens_to_dir
 
-TEST_PATH = "../data/supreme/134.txt"
+TEST_PATH_FOR_FILE = "../data/test/1.txt"
+TEST_PATH_FOR_DIR = "../data/test/"
+
 
 
 if __name__ == '__main__':
-    counter = tokenize_to_counter.solve(TEST_PATH)
-    
+    save_tokens_to_dir.solve(TEST_PATH_FOR_DIR)
