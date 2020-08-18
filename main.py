@@ -1,11 +1,10 @@
 import re
 import os
-import resolve_abbrev
+import tokenize_to_counter
 
-x = "afaiuvbjaSDVS VOPDvjWOIVND  vdOIVHNJS vdOSAIHFVO vcAV"
+TEST_PATH = "../data/supreme/134.txt"
 
-# Press the green button in the gutter to run the script.
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    counter = tokenize_to_counter.solve(TEST_PATH)
+    
