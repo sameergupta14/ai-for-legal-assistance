@@ -1,5 +1,4 @@
 import re
-import os
 import save_tokens_to_dir
 
 TEST_PATH_FOR_FILE = "../data/test/1.txt"
